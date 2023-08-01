@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="#878585">
+    <RelativeLayout
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_margin="@dimen/_1sdp"
+            android:text="Benefits of pro version"
+            android:textColor="@color/purple_700"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:id="@+id/txt1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt1"
+            android:text="1. No Ads"
+            android:layout_margin="@dimen/_1sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10sdp"
+            android:id="@+id/txt2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt2"
+            android:text="2. No wait time for hint and skip"
+            android:layout_margin="@dimen/_1sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10sdp"
+            android:id="@+id/txt3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt3"
+            android:text="3. Hint for every level"
+            android:layout_margin="@dimen/_1sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10sdp"
+            android:id="@+id/txt4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt4"
+            android:text="4. Solution for every level"
+            android:layout_margin="@dimen/_3sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10sdp"
+            android:id="@+id/txt5"
+            />
+        <Button
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@id/txt5"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/_22sdp"
+
+            app:backgroundTint="@null"
+            android:background="@drawable/bg1"
+            android:text="Buy"
+            android:textSize="@dimen/_10sdp"
+            android:id="@+id/buy_button"/>
+        <Button
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@id/txt5"
+            android:layout_toRightOf="@id/buy_button"
+            android:textColor="@color/white"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            app:backgroundTint="@null"
+            android:background="@drawable/bg1"
+            android:text="No,Thanks"
+            android:textSize="@dimen/_10sdp"
+            android:id="@+id/nO_thx_button"/>
+    </RelativeLayout>
+</LinearLayout>
